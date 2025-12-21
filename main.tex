@@ -1,50 +1,49 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-%   ´óÁ¬Àí¹¤´óÑ§Ë¶Ê¿ÂÛÎÄÄ£°å ¡ª¡ª Ö÷ÎÄ¼ş main.tex
-%   °æ±¾£º0.71
-%   ×îºó¸üĞÂ£º2010-12-22
-%   ±àÒë»·¾³£ºWindows XP SP3 + CTeXLive 2009 + WinEdt 5.6
-%   »¶Ó­Ê¹ÓÃ£¬ÈçÓĞÈÎºÎÒâ¼ûºÍ½¨ÒéÇë·¢ËÍÓÊ¼şÖÁ yuri_1985@163.com£¬¸ĞĞ»ÄúµÄÖ§³Ö£¡
+%   å¤§è¿ç†å·¥å¤§å­¦ç¡•å£«è®ºæ–‡æ¨¡æ¿ â€•â€• ä¸»æ–‡ä»¶ main.tex
+%   ç‰ˆæœ¬ï¼š0.71
+%   æœ€åæ›´æ–°ï¼š2010-12-22
+%   ç¼–è¯‘ç¯å¢ƒï¼šWindows XP SP3 + CTeXLive 2009 + WinEdt 5.6
+%   æ¬¢è¿ä½¿ç”¨ï¼Œå¦‚æœ‰ä»»ä½•æ„è§å’Œå»ºè®®è¯·å‘é€é‚®ä»¶è‡³ yuri_1985@163.comï¼Œæ„Ÿè°¢æ‚¨çš„æ”¯æŒï¼
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[12pt,a4paper,openany,oneside]{book}
 
-% ÒıÓÃµÄºê°ü
+% å¼•ç”¨çš„å®åŒ…
 \input{setup/package.tex}
 
-% ÎÄµµÕıÎÄ
+% æ–‡æ¡£æ­£æ–‡
 \begin{document}
-	\begin{CJK}{GBK}{song}
+	
+	% å®šä¹‰æ‰€æœ‰çš„å›¾ç‰‡æ–‡ä»¶åœ¨ figures å­ç›®å½•ä¸‹
+	\graphicspath{{figures/}}
 		
-		% ¶¨ÒåËùÓĞµÄÍ¼Æ¬ÎÄ¼şÔÚ figures ×ÓÄ¿Â¼ÏÂ
-		\graphicspath{{figures/}}
-		
-		% ÎÄ±¾¸ñÊ½¶¨Òå
+		% æ–‡æœ¬æ ¼å¼å®šä¹‰
 		\input{setup/format.tex}
 		
-		% Ç°ÑÔ
+		% å‰è¨€
 		\frontmatter
 		\pagenumbering{Roman}
-		\input{preface/cover.tex}       % ·âÃæ
-		%\originality                    % ¶À´´ĞÔ
+		\input{preface/cover.tex}       % å°é¢
+		%\originality                    % ç‹¬åˆ›æ€§
 %		\makeabstract
 		
-		% ÉèÖÃÄ¿Â¼×ÖÌåºÍĞĞ¼ä¾à
+		% è®¾ç½®ç›®å½•å­—ä½“å’Œè¡Œé—´è·
 		\defaultmenufont
-		% Ä¿Â¼
+		% ç›®å½•
 		\tableofcontents
 		\cleardoublepage
-		% ²åÍ¼Ä¿Â¼
+		% æ’å›¾ç›®å½•
 		%\listoffigures
-		% ±í¸ñÄ¿Â¼
+		% è¡¨æ ¼ç›®å½•
 		%\listoftables
 		\cleardoublepage
 		
 		\defaultfont
 		\mainmatter
 		
-		% ÕıÎÄÕÂ½Ú
+		% æ­£æ–‡ç« èŠ‚
 		\defaultfont
 		\renewcommand{\thefootnote}{\arabic{footnote}}
 		\include{body/chap00}
@@ -52,20 +51,19 @@
 		\include{body/chap02}
 		\include{body/chap03}
 		
-		% ½áÂÛ
+		% ç»“è®º
 %		\include{body/conclusion}
 		\cleardoublepage
 		%\backmatter
 		
-		% ²Î¿¼ÎÄÏ×
+		% å‚è€ƒæ–‡çŒ®ï¼ˆä½¿ç”¨ biblatexï¼‰
 		\wuhao
-		\bibliographystyle{GBT7714-2005NLang}
 		\phantomsection
-		\addcontentsline{toc}{chapter}{²Î¿¼ÎÄÏ×}
-		\bibliography{body/reference}
+		\addcontentsline{toc}{chapter}{å‚è€ƒæ–‡çŒ®}
+		\printbibliography[title=å‚è€ƒæ–‡çŒ®]
 		\cleardoublepage
 		
-		%¸½Â¼
+		%é™„å½•
 		\defaultfont
 		\begin{appendix}
 			\input{appendix/chapA}
@@ -73,21 +71,20 @@
 		\cleardoublepage
 		
 		\defaultfont
-		%·¢±íµÄÎÄÕÂÁĞ±í
+		%å‘è¡¨çš„æ–‡ç« åˆ—è¡¨
 		%\include{appendix/publications}
 		\cleardoublepage
-		%ÖÂĞ»
+		%è‡´è°¢
 		\include{appendix/acknowledgements}
 		\cleardoublepage
-		%ÊÚÈ¨Êé
+		%æˆæƒä¹¦
 		%\chapter*{}
-		%\addcontentsline{toc}{chapter}{´óÁ¬Àí¹¤´óÑ§Ñ§Î»ÂÛÎÄ°æÈ¨Ê¹ÓÃÊÚÈ¨Êé}
+		%\addcontentsline{toc}{chapter}{å¤§è¿ç†å·¥å¤§å­¦å­¦ä½è®ºæ–‡ç‰ˆæƒä½¿ç”¨æˆæƒä¹¦}
 		%\renewcommand{\baselinestretch}{1.61}
 		%\vspace{-0.48cm}
 		%\authorization
 		%\cleardoublepage
 		
-	\end{CJK}
 \end{document}
 
 %%%%%%%%%%%%%%%%%% End of the file  %%%%%%%%%%%%%%%%%%%%%%%%
