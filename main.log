@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.15)  21 DEC 2025 16:18
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.15)  21 DEC 2025 16:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1576,18 +1576,11 @@ File: figures/dlut.pdf Graphic file (type pdf)
 
 
 
-]
-
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 52.
-
-) [2]
+]) [2]
 \openout2 = `body/chap01.aux'.
 
  (./body/chap01.tex
 Chapter 1.
-
-LaTeX Font Warning: Command \scriptsize invalid in math mode on input line 6.
-
 
 Package fontspec Info: 
 (fontspec)             Script 'CJK' not explicitly supported within font
@@ -1638,13 +1631,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--35
 
 
 ]
-
-LaTeX Warning: Citation 'WANG00' on page 6 undefined on input line 38.
-
-
-LaTeX Warning: Citation 'WRH-SPLBOK94' on page 6 undefined on input line 40.
-
 LaTeX Font Info:    Calculating math sizes for size <10.5> on input line 54.
+
 
 LaTeX Font Warning: Font shape `U/rsfs/m/n' in size <10.5> not available
 (Font)              size <10.95> substituted on input line 54.
@@ -1654,9 +1642,6 @@ Underfull \hbox (badness 5681) in paragraph at lines 90--92
 \TU/FandolSong-Regular(0)/m/n/12 其 中 的 [] 命 令 和 插 图 中 的 一 样，|  只 是 位 置 必 须 位 于 
 插 入 的 表 格 之 前。|
  []
-
-
-LaTeX Warning: Citation 'GBT7714-2005' on page 7 undefined on input line 112.
 
 )
 Underfull \hbox (badness 3428) in paragraph at lines 111--51
@@ -1674,20 +1659,19 @@ Chapter 3.
 
 
 
-]
-
-LaTeX Warning: Empty bibliography on input line 63.
-
-(./appendix/chapA.tex) [9
+] [9
 
 
 
+
+] (./appendix/chapA.tex) [10
 
 
 ]
 \openout2 = `appendix/acknowledgements.aux'.
 
- (./appendix/acknowledgements.tex) [10
+ (./appendix/acknowledgements.tex)
+[11
 
 
 
@@ -1696,9 +1680,8 @@ LaTeX Warning: Empty bibliography on input line 63.
 \tf@thm=\write7
 \openout7 = `main.thm'.
 
- (./main.aux
-(./body/chap00.aux) (./body/chap01.aux) (./body/chap02.aux) (./body/chap03.aux)
-(./appendix/acknowledgements.aux))
+ (./main.aux (./body/chap00.aux) (./body/chap01.aux) (./body/chap02.aux)
+(./body/chap03.aux) (./appendix/acknowledgements.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1708,27 +1691,19 @@ L3 programming layer <2022/07/14>
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8A5944FD1EF70DE36E65D7BC9CBEC472;1441.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: C9FE0EC886BAB84C4E7576AF2141C3C1;1441.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27438 strings out of 468179
- 571195 string characters out of 5408879
- 1574495 words of memory out of 5000000
- 55688 multiletter control sequences out of 15000+600000
- 667774 words of font info for 241 fonts, out of 8000000 for 9000
+ 27478 strings out of 468179
+ 572270 string characters out of 5408879
+ 1574603 words of memory out of 5000000
+ 55732 multiletter control sequences out of 15000+600000
+ 667758 words of font info for 239 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 98i,12n,115p,865b,1329s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,12n,115p,865b,4878s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (13 pages).

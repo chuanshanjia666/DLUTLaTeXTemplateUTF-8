@@ -1,0 +1,169 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{WANG00}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=22e6447227e71dd3680320fa4d45d7f0}{%
+           family={{K. Reckdahl~原著王磊~译}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=e727041423284e14f13440198bde0982}{%
+           family={{K. Reckdahl~原著, 王磊~译}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {c}%
+      }
+      \strng{namehash}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{fullhash}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{fullhashraw}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{bibnamehash}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{authorbibnamehash}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{authornamehash}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{authorfullhash}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{authorfullhashraw}{22e6447227e71dd3680320fa4d45d7f0}
+      \strng{nameabibnamehash}{e727041423284e14f13440198bde0982}
+      \strng{nameanamehash}{e727041423284e14f13440198bde0982}
+      \strng{nameafullhash}{e727041423284e14f13440198bde0982}
+      \strng{nameafullhashraw}{e727041423284e14f13440198bde0982}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Using Import graphics in {\LaTeX 2$\varepsilon$}, {\LaTeX 2$\varepsilon$}插图指南}
+      \field{usera}{A}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \keyw{WANG00}
+    \endentry
+    \entry{WRH-SPLBOK94}{book}{}{}
+      \name{author}{4}{}{%
+        {{hash=565639ad83658999be1038c32f6ca103}{%
+           family={王仁宏},
+           familyi={王\bibinitperiod}}}%
+        {{hash=c31b0058be6dd3e8aa4603c8e2d924e6}{%
+           family={施锡泉},
+           familyi={施\bibinitperiod}}}%
+        {{hash=cec1b5bd3095991748ecfdc8adc076a0}{%
+           family={罗钟铉},
+           familyi={罗\bibinitperiod}}}%
+        {{hash=899c53e21aec1d558a3cb8f4cb178732}{%
+           family={苏志勋},
+           familyi={苏\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=565639ad83658999be1038c32f6ca103}{%
+           family={王仁宏},
+           familyi={王\bibinitperiod}}}%
+        {{hash=c31b0058be6dd3e8aa4603c8e2d924e6}{%
+           family={施锡泉},
+           familyi={施\bibinitperiod}}}%
+        {{hash=cec1b5bd3095991748ecfdc8adc076a0}{%
+           family={罗钟铉},
+           familyi={罗\bibinitperiod}}}%
+        {{hash=899c53e21aec1d558a3cb8f4cb178732}{%
+           family={苏志勋},
+           familyi={苏\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {c}%
+      }
+      \list{location}{1}{%
+        {北京}%
+      }
+      \list{publisher}{1}{%
+        {科学出版社}%
+      }
+      \strng{namehash}{b100ceea2165a21c79afd9540a8b6faf}
+      \strng{fullhash}{0f6592bc2125ee7c4b87a62f5c2bf2eb}
+      \strng{fullhashraw}{0f6592bc2125ee7c4b87a62f5c2bf2eb}
+      \strng{bibnamehash}{63ecb3c927e25999747dca588ae0e1e0}
+      \strng{authorbibnamehash}{63ecb3c927e25999747dca588ae0e1e0}
+      \strng{authornamehash}{b100ceea2165a21c79afd9540a8b6faf}
+      \strng{authorfullhash}{0f6592bc2125ee7c4b87a62f5c2bf2eb}
+      \strng{authorfullhashraw}{0f6592bc2125ee7c4b87a62f5c2bf2eb}
+      \strng{nameabibnamehash}{63ecb3c927e25999747dca588ae0e1e0}
+      \strng{nameanamehash}{b100ceea2165a21c79afd9540a8b6faf}
+      \strng{nameafullhash}{0f6592bc2125ee7c4b87a62f5c2bf2eb}
+      \strng{nameafullhashraw}{0f6592bc2125ee7c4b87a62f5c2bf2eb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{多元样条函数及其应用}
+      \field{usera}{M}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \keyw{WRH-SPLBOK94}
+    \endentry
+    \entry{GBT7714-2005}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=119479f7926108f02db4c0a11129b938}{%
+           family={吴凯},
+           familyi={吴\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=119479f7926108f02db4c0a11129b938}{%
+           family={吴凯},
+           familyi={吴\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {1.0 $\beta$3}%
+      }
+      \list{language}{1}{%
+        {c}%
+      }
+      \strng{namehash}{119479f7926108f02db4c0a11129b938}
+      \strng{fullhash}{119479f7926108f02db4c0a11129b938}
+      \strng{fullhashraw}{119479f7926108f02db4c0a11129b938}
+      \strng{bibnamehash}{119479f7926108f02db4c0a11129b938}
+      \strng{authorbibnamehash}{119479f7926108f02db4c0a11129b938}
+      \strng{authornamehash}{119479f7926108f02db4c0a11129b938}
+      \strng{authorfullhash}{119479f7926108f02db4c0a11129b938}
+      \strng{authorfullhashraw}{119479f7926108f02db4c0a11129b938}
+      \strng{nameabibnamehash}{119479f7926108f02db4c0a11129b938}
+      \strng{nameanamehash}{119479f7926108f02db4c0a11129b938}
+      \strng{nameafullhash}{119479f7926108f02db4c0a11129b938}
+      \strng{nameafullhashraw}{119479f7926108f02db4c0a11129b938}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1.0 $\beta$3}
+      \field{month}{9}
+      \field{title}{GBT7714-2005.bst：利用{Bib\TeX}生成符合GB/T 7714-2005的参考文献}
+      \field{usera}{A}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{version}{1.0 $\beta$3}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \keyw{GBT7714-2005}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
