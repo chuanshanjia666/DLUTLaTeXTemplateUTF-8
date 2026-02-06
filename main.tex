@@ -14,7 +14,7 @@
 \graphicspath{{figures/}}
 
 % 参考文献数据库
-\addbibresource{body/reference.bib}
+\addbibresource{sections/reference.bib}
 
 % 论文信息设置
 \ctitle{大连理工大学学位论文 \\ XeLaTeX 模板设计与实现}
@@ -87,13 +87,13 @@
 % 正文章节
 \defaultfont
 \renewcommand{\thefootnote}{\arabic{footnote}}
-\include{body/chap00}
-\include{body/chap01}
-\include{body/chap02}
-\include{body/chap03}
+\include{sections/0.chap00}
+\include{sections/1.chap01}
+\include{sections/2.chap02}
+\include{sections/3.chap03}
 
 % 结论
-%\include{body/conclusion}
+%\include{sections/4.conclusion}
 \cleardoublepage
 
 % 参考文献（使用 biblatex）
@@ -106,17 +106,17 @@
 %附录
 \defaultfont
 \begin{appendix}
-    \input{appendix/chapA}
+    \input{sections/6.chapA}
 \end{appendix}
 \cleardoublepage
 
 \defaultfont
 %发表的文章列表
-%\include{appendix/publications}
+%\include{sections/8.publications}
 \cleardoublepage
 
 %致谢
-\include{appendix/acknowledgements}
+\include{sections/7.acknowledgements}
 \cleardoublepage
 
 %授权书

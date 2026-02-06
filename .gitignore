@@ -309,11 +309,4 @@ Desktop.ini
 *. rar
 *.7z
 
-*.claude
-*.aux
-*.log
-*.toc
-*.out
-*.bbl
-*.out
-*.thm
+.claude

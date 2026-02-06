@@ -50,20 +50,24 @@ xelatex main.tex
 ```
 DLUTLaTeXTemplateUTF-8/
 ├── dlutthesis.cls          # 文档类文件（核心配置）
-├── main.tex                # 主文件
+├── main.tex                # 主文件（使用新文档类）
 ├── compile.sh              # 编译脚本
-├── body/                   # 正文内容
-│   ├── chap00.tex         # 第0章
-│   ├── chap01.tex         # 第1章
-│   ├── chap02.tex         # 第2章
-│   ├── chap03.tex         # 第3章
+├── README.md               # 使用说明
+├── sections/               # 论文内容文件（按数字顺序排列）
+│   ├── 0.chap00.tex       # 第0章
+│   ├── 1.chap01.tex       # 第1章
+│   ├── 2.chap02.tex       # 第2章
+│   ├── 3.chap03.tex       # 第3章
+│   ├── 4.conclusion.tex   # 结论
+│   ├── 5.cover.tex        # 封面
+│   ├── 6.chapA.tex        # 附录A
+│   ├── 7.acknowledgements.tex # 致谢
+│   ├── 8.publications.tex # 发表文章
 │   └── reference.bib      # 参考文献数据库
-├── preface/               # 前言部分
-│   └── cover.tex          # 封面信息
-├── appendix/              # 附录
-│   ├── chapA.tex          # 附录A
-│   └── acknowledgements.tex # 致谢
-└── figures/               # 图片目录（需要时创建）
+└── figures/               # 图片目录
+    ├── dlut.pdf
+    ├── manner.jpg
+    └── ...
 ```
 
 ## 自定义论文信息
@@ -95,7 +99,7 @@ DLUTLaTeXTemplateUTF-8/
 
 ## 添加参考文献
 
-在 `body/reference.bib` 文件中添加参考文献条目，然后在正文中引用：
+在 `sections/reference.bib` 文件中添加参考文献条目，然后在正文中引用：
 
 ```latex
 % 在正文中引用
