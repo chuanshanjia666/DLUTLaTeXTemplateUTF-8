@@ -16,20 +16,44 @@
 - TeX Live 2020+ 或 MiKTeX 20.6+
 - XeLaTeX
 - biber (用于参考文献处理)
+- latexmk (推荐，用于自动化编译)
+- make (用于使用Makefile)
 
 ## 快速开始
 
-### 方法一：使用编译脚本（推荐）
+### 方法一：使用 Makefile（推荐）
 
 ```bash
-# 给编译脚本添加执行权限
-chmod +x compile.sh
+# 完整编译生成PDF（自动处理所有依赖）
+make pdf
 
-# 运行编译脚本
-./compile.sh
+# 编译并查看PDF
+make view
+
+# 快速编译（仅一次XeLaTeX，适用于草稿）
+make quick
+
+# 清理临时文件
+make clean
+
+# 彻底清理（包括PDF）
+make distclean
 ```
 
-### 方法二：手动编译
+### 方法二：使用 latexmk 直接编译
+
+```bash
+# 自动编译（智能处理多次编译和参考文献）
+latexmk -xelatex -shell-escape main.tex
+
+# 清理临时文件
+latexmk -c
+
+# 彻底清理
+latexmk -C
+```
+
+### 方法三：手动编译（不推荐）
 
 ```bash
 # 第一次编译
@@ -108,6 +132,29 @@ DLUTLaTeXTemplateUTF-8/
 % 在参考文献章节前添加
 \printbibliography[title=参考文献]
 ```
+
+## 编译工具说明
+
+本模板提供了多种编译方式，推荐使用自动化工具：
+
+### latexmk（推荐）
+`latexmk` 是一个智能的LaTeX编译工具，能够：
+- 自动检测文件依赖关系
+- 智能决定需要运行多少次LaTeX
+- 自动处理参考文献（biber/bibtex）
+- 支持清理临时文件
+
+### Makefile 命令
+- `make pdf` - 完整编译（最推荐）
+- `make view` - 编译并打开PDF
+- `make quick` - 快速编译（仅一次XeLaTeX）
+- `make clean` - 清理临时文件
+- `make distclean` - 彻底清理（包括PDF）
+- `make help` - 显示帮助信息
+
+### 配置文件
+- `latexmkrc` - latexmk 配置文件，优化编译参数
+- `Makefile` - 提供常用编译命令的Makefile
 
 ## 常见问题
 
